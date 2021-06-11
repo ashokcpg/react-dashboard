@@ -1,0 +1,33 @@
+.chart {
+	margin: 2rem;
+	padding: 2rem;
+	box-shadow: 0 0.3rem 1.1rem -0.3rem #000000;
+	border-radius: 1rem;
+}
+.chartTitle {
+	margin-bottom: 2rem;
+	font-size: 3rem;
+}
+tspan {
+	font-size: 1.6rem;
+}
+.recharts-tooltip-wrapper,
+.recharts-tooltip-wrapper-right,
+.recharts-tooltip-wrapper-bottom,
+.recharts-tooltip-item-list {
+	font-size: 3rem;
+	font-weight: 600;
+}
+.recharts-legend-item > svg {
+	height: 3rem !important;
+	position: absolute !important;
+	width: 3rem !important;
+	/* transform: scale(1.5) !important; */
+	top: 0.6rem !important;
+}
+.recharts-legend-item span {
+	margin-left: 4rem;
+	font-size: 3rem;
+	position: relative;
+	font-weight: 600;
+}

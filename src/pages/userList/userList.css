@@ -1,0 +1,56 @@
+.userList {
+	flex: 4;
+	font-size: 2rem;
+	color: red;
+}
+.userListHeader {
+	font-size: 3rem;
+	text-align: center;
+	margin-bottom: 2rem;
+	color: #222;
+}
+.userListUser {
+	display: flex;
+	align-items: center;
+}
+.userListImg {
+	height: 32px;
+	width: 32px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-right: 1rem;
+}
+.userListEdit {
+	display: flex;
+	align-items: center;
+	border: none;
+	border-radius: 1rem;
+	padding: 1rem 1.5rem;
+	background-color: #a5ffa9;
+	cursor: pointer;
+	margin-right: 1rem;
+	font-size: 1.4rem;
+}
+.MuiSvgIcon-root.userListDelete {
+	cursor: pointer;
+	color: red !important;
+	font-size: 3rem !important;
+}
+
+.MuiDataGrid-columnsContainer *,
+.MuiDataGrid-footer * {
+	font-size: 2rem !important;
+	color: #222 !important;
+	font-weight: 600 !important;
+}
+.MuiDataGrid-dataContainer * {
+	color: #444 !important;
+	font-size: 1.6rem !important;
+	text-decoration: none;
+}
+.MuiDataGridMenu-root * {
+	font-size: 1.6rem !important;
+}
+.MuiDataGridPanel-root * {
+	font-size: 1.8rem !important;
+}

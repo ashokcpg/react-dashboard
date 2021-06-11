@@ -1,0 +1,60 @@
+.newUserTitle {
+	font-size: 3rem;
+}
+.newUser {
+	flex: 4;
+	padding: 2rem;
+}
+.newUserForm {
+	display: flex;
+	flex-wrap: wrap;
+}
+.newUserItem {
+	width: 40rem;
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+	margin-right: 2rem;
+}
+.newUserItem > label {
+	margin-bottom: 1rem;
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: rgb(49, 49, 49);
+}
+.newUserItem > input {
+	height: 4rem;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	border-bottom: 1px solid gray;
+	font-size: 1.8rem;
+	outline: none;
+}
+.newUserGender > input {
+	margin-top: 1.5rem;
+}
+.newUserGender > label {
+	margin: 1rem;
+	font-size: 1.8rem;
+	color: #555;
+}
+.newUserSelect,
+.newUserSelect option {
+	height: 4rem;
+	border-radius: 0.5rem;
+	font-size: 1.8rem;
+	color: #555;
+	background-color: white;
+}
+.newUserButton {
+	border-radius: 0.5rem;
+	width: 30rem;
+	border: none;
+	padding: 0.8rem;
+	font-size: 1.8rem;
+	cursor: pointer;
+	background-color: teal;
+	color: aliceblue;
+	font-weight: 600;
+	margin-top: 3.5rem;
+}
