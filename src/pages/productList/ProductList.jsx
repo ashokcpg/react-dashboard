@@ -23,8 +23,9 @@ export default function ProductList() {
 			headerName: "Product",
 			width: 220,
 			renderCell: (params) => {
+				console.log(params.row);
 				return (
-					<div className='productListUser'>
+					<div className='productListItem'>
 						<img className='productListImg' src={params.row.img} alt='' />
 						{params.row.name}
 					</div>

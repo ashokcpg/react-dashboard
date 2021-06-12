@@ -1,0 +1,135 @@
+.product {
+	flex: 4;
+	padding: 2rem;
+}
+.productTitleContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.productTitle {
+	font-size: 3rem;
+}
+.productAddButton {
+	width: 8rem;
+	padding: 1rem 1.5rem;
+	background-color: teal;
+	font-size: 1.6rem;
+	border: none;
+	border-radius: 1rem;
+	color: #eee;
+	cursor: pointer;
+}
+.productTop {
+	display: flex;
+}
+.productTopLeft,
+.productTopRight {
+	flex: 1;
+}
+.productTopRight {
+	padding: 2rem;
+	box-shadow: 0 0.3rem 1.1rem -0.3rem #000000;
+	margin: 2rem;
+	border-radius: 1rem;
+}
+.productInfoImg {
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.productInfoTop {
+	display: flex;
+	align-items: center;
+}
+.productName {
+	font-weight: 600;
+	font-size: 2rem;
+	margin-left: 1rem;
+}
+.productInfoBottom {
+	margin-top: 1rem;
+}
+.productInfoItem {
+	width: 15rem;
+	display: flex;
+	justify-content: space-between;
+	font-size: 2.4rem;
+}
+.productInfoItem * {
+	margin-top: 0.8rem;
+}
+.productInfoValue {
+	font-weight: 300;
+}
+
+.productBottom {
+	padding: 2rem;
+	box-shadow: 0 0.3rem 1.1rem -0.3rem #000000;
+	margin: 2rem;
+	border-radius: 1rem;
+}
+
+.productForm {
+	display: flex;
+	justify-content: space-between;
+	font-size: 2rem;
+}
+
+.productFormLeft {
+	display: flex;
+	flex-direction: column;
+}
+.productFormLeft > label {
+	margin-top: 1rem;
+	font-size: 1.6rem;
+}
+.productFormLeft > input {
+	border: none;
+	width: 25rem;
+	height: 3rem;
+	border-bottom: 1px solid gray;
+	font-size: 1.8rem;
+	outline: none;
+}
+.productFormLeft > select,
+.productFormLeft select option {
+	margin-top: 1rem;
+	height: 4rem;
+	border-radius: 0.5rem;
+	font-size: 1.8rem;
+	color: #555;
+	background-color: white;
+	/* margin-bottom: 1rem; */
+}
+.productUploadImg {
+	width: 10rem;
+	height: auto;
+	border-radius: 1rem;
+	object-fit: cover;
+	margin-right: 2rem;
+}
+.productFormRight {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.productUpload {
+	display: flex;
+	align-items: center;
+}
+.productButton {
+	border-radius: 0.5rem;
+	border: none;
+	padding: 0.8rem;
+	font-size: 1.8rem;
+	cursor: pointer;
+	background-color: teal;
+	color: aliceblue;
+	font-weight: 600;
+}
+.productUpload .MuiSvgIcon-root {
+	font-size: 3rem !important;
+	color: brown;
+}

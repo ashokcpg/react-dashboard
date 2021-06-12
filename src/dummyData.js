@@ -1,4 +1,5 @@
 import { Photos } from "./Photos.js";
+// User Data
 export const userData = [
 	{
 		Month: "Jan",
@@ -50,6 +51,23 @@ export const userData = [
 	},
 ];
 
+// Product Data
+export const productData = [
+	{
+		Month: "Jan",
+		Sales: 4000,
+	},
+	{
+		Month: "Feb",
+		Sales: 3000,
+	},
+	{
+		Month: "Mar",
+		Sales: 2000,
+	},
+];
+
+// User Info
 export const userRows = [
 	{
 		id: 1,
@@ -133,11 +151,12 @@ export const userRows = [
 	},
 ];
 
+// Product Info
 export const productRows = [
 	{
 		id: 1,
 		name: "Apple iPhone Pro Max",
-		avatar: Photos[0].photo1.type,
+		img: Photos[5].product1.type,
 		stock: 111,
 		status: "active",
 		price: "$123.45",
@@ -145,7 +164,7 @@ export const productRows = [
 	{
 		id: 2,
 		name: "Apple iPhone Pro Max",
-		avatar: Photos[1].photo2.type,
+		img: Photos[5].product1.type,
 		stock: 111,
 		status: "active",
 		price: "$123.45",
@@ -153,7 +172,7 @@ export const productRows = [
 	{
 		id: 3,
 		name: "Apple iPhone Pro Max",
-		avatar: Photos[2].photo3.type,
+		img: Photos[5].product1.type,
 		stock: 111,
 		status: "active",
 		price: "$123.45",
@@ -161,7 +180,7 @@ export const productRows = [
 	{
 		id: 4,
 		name: "Apple iPhone Pro Max",
-		avatar: Photos[3].photo4.type,
+		img: Photos[5].product1.type,
 		stock: 111,
 		status: "active",
 		price: "$123.45",
@@ -169,7 +188,7 @@ export const productRows = [
 	{
 		id: 5,
 		name: "Apple iPhone Pro Max",
-		avatar: Photos[4].photo5.type,
+		img: Photos[5].product1.type,
 		stock: 111,
 		status: "active",
 		price: "$123.45",
@@ -177,7 +196,7 @@ export const productRows = [
 	{
 		id: 6,
 		name: "Apple iPhone Pro Max",
-		avatar: Photos[4].photo5.type,
+		img: Photos[5].product1.type,
 		stock: 111,
 		status: "active",
 		price: "$123.45",
@@ -185,7 +204,7 @@ export const productRows = [
 	{
 		id: 7,
 		name: "Apple iPhone Pro Max",
-		avatar: Photos[3].photo4.type,
+		img: Photos[5].product1.type,
 		stock: 111,
 		status: "active",
 		price: "$123.45",
@@ -193,7 +212,7 @@ export const productRows = [
 	{
 		id: 8,
 		name: "Apple iPhone Pro Max",
-		avatar: Photos[2].photo3.type,
+		img: Photos[5].product1.type,
 		stock: 111,
 		status: "active",
 		price: "$123.45",
@@ -201,7 +220,7 @@ export const productRows = [
 	{
 		id: 9,
 		name: "Apple iPhone Pro Max",
-		avatar: Photos[1].photo2.type,
+		img: Photos[5].product1.type,
 		stock: 111,
 		status: "active",
 		price: "$123.45",
@@ -209,7 +228,7 @@ export const productRows = [
 	{
 		id: 10,
 		name: "Apple iPhone Pro Max",
-		avatar: Photos[0].photo1.type,
+		img: Photos[5].product1.type,
 		stock: 111,
 		status: "active",
 		price: "$123.45",
